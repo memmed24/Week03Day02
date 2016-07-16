@@ -1,0 +1,36 @@
+first:
+1. reset.css yuklenmelidi 
+2. classlarla ishlemek lazimdi
+3. bir classi bir neche yerde ishletmek lazimdi
+4. bele yazilmalidi:
+p {line-height: 2; color:yellow;}
+5. margin 0-lanmalidi
+
+second:
+sayti hazirlayan zaman biz mueyyen ikonlardan istifade etmek mecburiyetinde qaliriq, bele olduqda 
+biz google'den istifade edeceyimiz ikonun .png formatinda yukleyib ishleye bilerik. Lakin ,bezen 
+ele olur ki, biz hemen ikonlara reng vermeyimiz lazim gelir. Bu halda biz fotoshopda rengini deyishe
+bilerik. Bu ise xeyli zamanimizi alir. Burada bize font-awesome komek edecek. Font'a color vermekle 
+biz ikonu rengleye bilerik. Istifade qaydasi:
+1. zip faylini yukleyirik
+2. font-awesome folder style.css faylinin oldugu foldere yerleshdirecik
+3. <head> taginin ichinde link ile elaqe yaradiciq
+
+third:
+1.Abel Pro
+2.Acidic
+3.Agency
+4.Alboroto
+5.Ambassadore
+6.American Captain
+7.Amydor
+8.Anabelle Script
+9.Antionio
+10.Antithesis
+isitfadesi:
+1. zip-i yuklemek lazimdi
+2. fontu style papkasina elave elemek
+3.@font-face{
+   src: url("file link");
+   font-family: "font adi"
+}
